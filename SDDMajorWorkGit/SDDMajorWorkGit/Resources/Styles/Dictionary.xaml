@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ResourceDictionary xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+
+<!-- Colours -->
+
+    <Color x:Key="Primary">#EACA67</Color>
+    <Color x:Key="AccentOrange">#EE9851</Color>
+    <Color x:Key="AccentPink">#E78787</Color>
+    <Color x:Key="AccentBlue">#A9D2CD</Color>
+    <Color x:Key="AccentGreen">#B4E5AF</Color>
+
+    <Color x:Key="Background1">#1F1F1F</Color>
+    <Color x:Key="Background2">#2E2E2E</Color>
+    <Color x:Key="Background3">#505050</Color>
+
+    <LinearGradientBrush EndPoint="0,1" x:Key="AccentOrangeGradient">
+        <GradientStop Color="{StaticResource AccentOrange}"
+                      Offset="0.1"/>
+        <GradientStop Color="{StaticResource Background1}"
+                      Offset="1"/>
+    </LinearGradientBrush>
+    <LinearGradientBrush EndPoint="0,1" x:Key="AccentPinkGradient">
+        <GradientStop Color="{StaticResource AccentPink}"
+                      Offset="0.1"/>
+        <GradientStop Color="{StaticResource Background1}"
+                      Offset="1"/>
+    </LinearGradientBrush>
+    <LinearGradientBrush EndPoint="0,1" x:Key="AccentBlueGradient">
+        <GradientStop Color="{StaticResource AccentBlue}"
+                      Offset="0.2"/>
+        <GradientStop Color="{StaticResource Background1}"
+                      Offset="1"/>
+    </LinearGradientBrush>
+    <LinearGradientBrush EndPoint="0,1" x:Key="AccentGreenGradient">
+        <GradientStop Color="{StaticResource AccentGreen}"
+                      Offset="0.1"/>
+        <GradientStop Color="{StaticResource Background1}"
+                      Offset="1"/>
+    </LinearGradientBrush>
+
+<!-- Styles -->
+
+    <!-- Change flyout icon styles -->
+    <Style TargetType="FlyoutItem" x:Key="HomeButton">
+        <Style.Triggers>
+
+            <!-- Sets the flyout icon to unselected when not on page -->
+            <Trigger TargetType="FlyoutItem"
+                     Property="IsChecked" Value="False">
+                <Setter Property="FlyoutIcon" Value="home_button_unselected_2.png"/>
+            </Trigger>
+
+            <!-- Sets the flyout icon to selected when on page -->
+            <Trigger TargetType="FlyoutItem"
+                     Property="IsChecked" Value="True">
+                <Setter Property="FlyoutIcon" Value="home_button_selected_2.png"/>
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+
+    <Style TargetType="FlyoutItem" x:Key="SearchButton">
+        <Style.Triggers>
+
+            <Trigger TargetType="FlyoutItem"
+                     Property="IsChecked" Value="False">
+                <Setter Property="FlyoutIcon" Value="search_button_unselected.png"/>
+            </Trigger>
+
+            <Trigger TargetType="FlyoutItem"
+                     Property="IsChecked" Value="True">
+                <Setter Property="FlyoutIcon" Value="search_button_selected.png"/>
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+
+    <Style TargetType="FlyoutItem" x:Key="LibraryButton">
+        <Style.Triggers>
+
+            <Trigger TargetType="FlyoutItem"
+                     Property="IsChecked" Value="False">
+                <Setter Property="FlyoutIcon" Value="library_button_unselected.png"/>
+            </Trigger>
+
+            <Trigger TargetType="FlyoutItem"
+                     Property="IsChecked" Value="True">
+                <Setter Property="FlyoutIcon" Value="library_button_selected.png"/>
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+
+    <Style TargetType="FlyoutItem" x:Key="ProfileButton">
+        <Style.Triggers>
+
+            <Trigger TargetType="FlyoutItem"
+                     Property="IsChecked" Value="False">
+                <Setter Property="FlyoutIcon" Value="profile_button_unselected.png"/>
+            </Trigger>
+
+            <Trigger TargetType="FlyoutItem"
+                     Property="IsChecked" Value="True">
+                <Setter Property="FlyoutIcon" Value="profile_button_selected.png"/>
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+
+</ResourceDictionary>

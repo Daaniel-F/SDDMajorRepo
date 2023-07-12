@@ -55,4 +55,24 @@
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="7.0.0" />
 	</ItemGroup>
 
+	<ItemGroup>
+	  <None Remove="Resources\Images\home_button_selected_2.svg" />
+	  <None Remove="Resources\Images\home_button_unselected_2.svg" />
+	  <None Remove="Resources\Images\library_button_selected.svg" />
+	  <None Remove="Resources\Images\library_button_unselected.svg" />
+	  <None Remove="Resources\Images\profile_button_selected.svg" />
+	  <None Remove="Resources\Images\profile_button_unselected.svg" />
+	  <None Remove="Resources\Images\search_button_selected.svg" />
+	  <None Remove="Resources\Images\search_button_unselected.svg" />
+	</ItemGroup>
+	<ItemGroup>
+	  <BundleResource Include="Resources\Images\home_button_selected_2.svg" />
+	  <BundleResource Include="Resources\Images\home_button_unselected_2.svg" />
+	  <BundleResource Include="Resources\Images\library_button_selected.svg" />
+	  <BundleResource Include="Resources\Images\library_button_unselected.svg" />
+	  <BundleResource Include="Resources\Images\profile_button_selected.svg" />
+	  <BundleResource Include="Resources\Images\profile_button_unselected.svg" />
+	  <BundleResource Include="Resources\Images\search_button_selected.svg" />
+	  <BundleResource Include="Resources\Images\search_button_unselected.svg" />
+	</ItemGroup>
 </Project>

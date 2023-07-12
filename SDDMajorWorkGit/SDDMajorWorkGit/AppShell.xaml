@@ -3,13 +3,36 @@
     x:Class="SDDMajorWorkGit.AppShell"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:local="clr-namespace:SDDMajorWorkGit"
-    Shell.FlyoutBehavior="Disabled">
+    xmlns:views="clr-namespace:SDDMajorWorkGit"
+    FlyoutBehavior="Locked" FlyoutWidth="120" FlyoutBackgroundColor="{StaticResource Background2}"
+    NavigationPage.HasNavigationBar="False" NavigationPage.BackButtonTitle="" NavBarIsVisible="False"
+    TabBarIsVisible="False">
 
-    <ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
+    <!-- Stacks the flyout icons in a sidebar menu -->
+    <Shell.ItemTemplate>
+        <DataTemplate>
+            <StackLayout Padding="25">
+                <Image Source="{Binding FlyoutIcon}"
+                       HeightRequest="70"/>
+            </StackLayout>
+        </DataTemplate>
+    </Shell.ItemTemplate>
+
+    <FlyoutItem Style="{StaticResource HomeButton}">
+        <ShellContent ContentTemplate="{DataTemplate views:MainPage}"/>
+    </FlyoutItem>
+
+    <!--<FlyoutItem Style="{StaticResource SearchButton}">
+        <ShellContent ContentTemplate="{DataTemplate views:SearchPage}"/>
+    </FlyoutItem>
+
+    <FlyoutItem Style="{StaticResource LibraryButton}">
+        <ShellContent ContentTemplate="{DataTemplate views:LibraryPage}"/>
+    </FlyoutItem>
+
+    <FlyoutItem Style="{StaticResource ProfileButton}">
+        <ShellContent ContentTemplate="{DataTemplate views:ProfilePage}"/>
+    </FlyoutItem>-->
 
 </Shell>
 

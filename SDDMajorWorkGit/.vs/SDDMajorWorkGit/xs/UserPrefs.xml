@@ -1,14 +1,27 @@
 ﻿<Properties StartupConfiguration="{C25951C4-1CA2-48FB-8B9E-0E5466BA35FA}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="SDDMajorWorkGit/MainPage.xaml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="SDDMajorWorkGit/App.xaml.cs">
     <Files>
-      <File FileName="SDDMajorWorkGit/MainPage.xaml.cs" Line="1" Column="1" />
-      <File FileName="SDDMajorWorkGit/MainPage.xaml" Line="1" Column="1" />
+      <File FileName="SDDMajorWorkGit/AppShell.xaml" Line="36" Column="1" />
+      <File FileName="SDDMajorWorkGit/App.xaml" Line="9" Column="81" />
+      <File FileName="SDDMajorWorkGit/App.xaml.cs" Line="18" Column="6" />
+      <File FileName="SDDMajorWorkGit/Resources/Styles/Dictionary.xaml" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="SDDMajorWorkGit" expanded="True">
             <Node name="SDDMajorWorkGit" expanded="True">
+              <Node name="Platforms" expanded="True">
+                <Node name="MacCatalyst" expanded="True" />
+              </Node>
+              <Node name="Resources" expanded="True">
+                <Node name="Images" expanded="True" />
+                <Node name="Styles" expanded="True" />
+              </Node>
+              <Node name="App.xaml" expanded="True">
+                <Node name="App.xaml.cs" selected="True" />
+              </Node>
+              <Node name="AppShell.xaml" expanded="True" />
               <Node name="MainPage.xaml" expanded="True" />
             </Node>
           </Node>
