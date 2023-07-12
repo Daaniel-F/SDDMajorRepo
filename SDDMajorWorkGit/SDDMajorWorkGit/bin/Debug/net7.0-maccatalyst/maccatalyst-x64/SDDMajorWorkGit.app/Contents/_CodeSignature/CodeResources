@@ -322,14 +322,49 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			7wOQT1R+9EE04Gf2PmsOM0zRhJ7w52lb692iY+y/lGM=
+			hPg1HHaTavy/2/9kptpAwBpJGRPm1FJx6LVW09i3JYw=
 			</data>
 		</dict>
 		<key>MonoBundle/SDDMajorWorkGit.pdb</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			56Hl37BdkTNy+UVhW23kVrHoW26ejkS8EC/SbMGOVRc=
+			Kb7FDv9tzTaB50e1Xoo9NRZQ1299j3uyPKot8aqAhEE=
+			</data>
+		</dict>
+		<key>MonoBundle/SQLite-net.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			G0Du6FIHrGQku+Pmrey48gKNhArHSSzdTDxdZdMFkb4=
+			</data>
+		</dict>
+		<key>MonoBundle/SQLitePCLRaw.batteries_v2.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			CfW9YSGfunnLgdH6QG8jwazapaObRUXq87nPs7OG2sU=
+			</data>
+		</dict>
+		<key>MonoBundle/SQLitePCLRaw.core.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			yRcyT6bqHwOGzBQK2R/Pq5DiOF0McLYibBg0/tELlzI=
+			</data>
+		</dict>
+		<key>MonoBundle/SQLitePCLRaw.nativelibrary.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			k6kuHu1PdUyKSs86EqhbgqnTWUwFcJhnu6p9u0PbP/k=
+			</data>
+		</dict>
+		<key>MonoBundle/SQLitePCLRaw.provider.dynamic_cdecl.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			RlKEwOHpxJVVOfepV31LUzLidIEBdD+JNMaY+mJgmRE=
 			</data>
 		</dict>
 		<key>MonoBundle/System.AppContext.dll</key>
