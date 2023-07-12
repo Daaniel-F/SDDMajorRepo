@@ -12,17 +12,9 @@
 		<data>
 		vOtOq9owNm+nWAYNPa5n2avWSq8=
 		</data>
-		<key>Resources/Images/home_button_selected.svg</key>
-		<data>
-		WfuVfI2wiRwfaAbjVTjKVho600c=
-		</data>
 		<key>Resources/Images/home_button_selected_2.svg</key>
 		<data>
 		NU2oCfoMRvMzUfuUKNg7BvQwTi8=
-		</data>
-		<key>Resources/Images/home_button_unselected.svg</key>
-		<data>
-		Do5txbOR0ug23kpS4dDkYS+zg54=
 		</data>
 		<key>Resources/Images/home_button_unselected_2.svg</key>
 		<data>
@@ -52,10 +44,6 @@
 		<data>
 		WTGgRwsCJJaoH7w8tveem8iWkn4=
 		</data>
-		<key>Resources/MauiInfo.plist</key>
-		<data>
-		iEtuUGCV6JM3gxS/pO33swhmpp8=
-		</data>
 		<key>Resources/MonoTouchDebugConfiguration.txt</key>
 		<data>
 		oowkf1sL6T19nanXUObgmuayWqM=
@@ -84,18 +72,6 @@
 		<data>
 		AgG9OaBqGlLlSsDbnE/6b1bb0xU=
 		</data>
-		<key>Resources/home_button_selected.png</key>
-		<data>
-		qtZlHppteZPLO7eJyG/3MOn27hk=
-		</data>
-		<key>Resources/home_button_selected@2x.png</key>
-		<data>
-		OjH7j0iZRiUknUa+F4cimm7RBP4=
-		</data>
-		<key>Resources/home_button_selected@3x.png</key>
-		<data>
-		IQabzVLyKV9YGwXo18/pDkl2tmI=
-		</data>
 		<key>Resources/home_button_selected_2.png</key>
 		<data>
 		qCyo101uDbe/PYEV3/iYjIxoDOc=
@@ -107,18 +83,6 @@
 		<key>Resources/home_button_selected_2@3x.png</key>
 		<data>
 		xlNwgG11kSUtzBim8091QcwlivQ=
-		</data>
-		<key>Resources/home_button_unselected.png</key>
-		<data>
-		curaShwy1uQO0mKKZC8CLUDFyxY=
-		</data>
-		<key>Resources/home_button_unselected@2x.png</key>
-		<data>
-		CMCgoaS1L1zlVzTJi4RewWuN6eg=
-		</data>
-		<key>Resources/home_button_unselected@3x.png</key>
-		<data>
-		/D0J6ez1svnQ/CCmWkvMh6Xx2Lo=
 		</data>
 		<key>Resources/home_button_unselected_2.png</key>
 		<data>
@@ -358,14 +322,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			oqRikPef0hCLaTDTxul87r88t6pBfCKXoSG4yabl1JI=
+			7wOQT1R+9EE04Gf2PmsOM0zRhJ7w52lb692iY+y/lGM=
 			</data>
 		</dict>
 		<key>MonoBundle/SDDMajorWorkGit.pdb</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			nt81FYF5RUAaNea/9Xvy6Z6rYws6bHXvJm8VkO+RrXM=
+			56Hl37BdkTNy+UVhW23kVrHoW26ejkS8EC/SbMGOVRc=
 			</data>
 		</dict>
 		<key>MonoBundle/System.AppContext.dll</key>
@@ -1586,25 +1550,11 @@
 			Zcjm86tonW4Bf71lQ7lbHN/Z1njAbZ+V8GOCDbJy1IE=
 			</data>
 		</dict>
-		<key>Resources/Images/home_button_selected.svg</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			PDiV8XgbV6Txv5H/TJgKgCqG0LAJK4rkQLv6/lCovLI=
-			</data>
-		</dict>
 		<key>Resources/Images/home_button_selected_2.svg</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			u0gcCCCo6WfIns9uz9N41ke1T9qpCw2M4t6hQ4j5IgY=
-			</data>
-		</dict>
-		<key>Resources/Images/home_button_unselected.svg</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			xoCzizePgHeE0/SGhkYrOU7cBM/n1JqRBEnfvWE+Nnk=
 			</data>
 		</dict>
 		<key>Resources/Images/home_button_unselected_2.svg</key>
@@ -1656,13 +1606,6 @@
 			4EWL23HFG+OtkdTaovz6d+qBA7uouAvCrRnN302s62E=
 			</data>
 		</dict>
-		<key>Resources/MauiInfo.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			tx0KXqEC+DvcCGyogQTEQWHcCWJYYqH24NtPwhpQEjo=
-			</data>
-		</dict>
 		<key>Resources/MonoTouchDebugConfiguration.txt</key>
 		<dict>
 			<key>hash2</key>
@@ -1712,27 +1655,6 @@
 			06Dw48r2qORp1zVQzu1FMEqEQpN18taU/bp0JACYc40=
 			</data>
 		</dict>
-		<key>Resources/home_button_selected.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Y0An5fdG6cyUL90dg9lVZ+Zo+KZRWxajX8V7jHkgZxU=
-			</data>
-		</dict>
-		<key>Resources/home_button_selected@2x.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			dmj/BFRGCjO4/3CFPjQZvNOvI5NhJMVAgrf71W0ZbtQ=
-			</data>
-		</dict>
-		<key>Resources/home_button_selected@3x.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			jv3zS4PxDMkLoA31jUl43nO53gSpbCtJ9Nq4PK0DPec=
-			</data>
-		</dict>
 		<key>Resources/home_button_selected_2.png</key>
 		<dict>
 			<key>hash2</key>
@@ -1752,27 +1674,6 @@
 			<key>hash2</key>
 			<data>
 			w2Jc56c0LsGCRYE9D8ZUWKFrBM9GDuihhHIUc9ius0M=
-			</data>
-		</dict>
-		<key>Resources/home_button_unselected.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			eeXgI9vFp6mFScEbXPfmQf9sHiPOZRNNFsfSG9gM1k4=
-			</data>
-		</dict>
-		<key>Resources/home_button_unselected@2x.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			zfz3LW9mQ+1n2LWBY2gerCTY3IIrCYH/LlOayKTrLwI=
-			</data>
-		</dict>
-		<key>Resources/home_button_unselected@3x.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			lkFcpbNwWv6EEfkhHLzvat5wYJ07y7R2HM0iTAjPq3o=
 			</data>
 		</dict>
 		<key>Resources/home_button_unselected_2.png</key>

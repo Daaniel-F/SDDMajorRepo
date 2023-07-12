@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SDDMajorWorkGit.ProfilePage"
+             x:DataType="Grid"
+             BackgroundColor="{StaticResource Background1}">
+
+    <Grid RowDefinitions="*, 0.15*">
+        <ScrollView>
+            <Grid RowDefinitions="0.4*, *" RowSpacing="20">
+                <Frame Grid.Row="0"
+                       HasShadow="False" Background="{StaticResource AccentOrangeGradient}"/>
+                <Label Grid.Row="0"
+                       Text="Profile" FontAttributes="Bold" FontSize="160"
+                       VerticalTextAlignment="End" HorizontalTextAlignment="Start"/>
+            </Grid>
+        </ScrollView>
+
+        <Grid ColumnDefinitions="*, *, *" Grid.Row="1">
+            <Frame Grid.ColumnSpan="3" Margin="10"
+                   HasShadow="False" Background="{StaticResource Background2}"
+                   CornerRadius="20"/>
+            <ProgressBar Grid.Column="1"
+                         ProgressColor="{StaticResource Primary}"
+                         Progress="0.5"/>
+        </Grid>
+
+    </Grid>
+
+</ContentPage>

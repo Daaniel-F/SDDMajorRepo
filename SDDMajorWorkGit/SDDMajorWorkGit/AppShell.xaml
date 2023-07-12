@@ -22,7 +22,7 @@
         <ShellContent ContentTemplate="{DataTemplate views:MainPage}"/>
     </FlyoutItem>
 
-    <!--<FlyoutItem Style="{StaticResource SearchButton}">
+    <FlyoutItem Style="{StaticResource SearchButton}">
         <ShellContent ContentTemplate="{DataTemplate views:SearchPage}"/>
     </FlyoutItem>
 
@@ -32,7 +32,7 @@
 
     <FlyoutItem Style="{StaticResource ProfileButton}">
         <ShellContent ContentTemplate="{DataTemplate views:ProfilePage}"/>
-    </FlyoutItem>-->
+    </FlyoutItem>
 
 </Shell>
 

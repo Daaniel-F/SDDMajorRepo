@@ -1,10 +1,9 @@
 ﻿<Properties StartupConfiguration="{C25951C4-1CA2-48FB-8B9E-0E5466BA35FA}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="SDDMajorWorkGit/App.xaml.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="SDDMajorWorkGit/SearchPage.xaml">
     <Files>
-      <File FileName="SDDMajorWorkGit/AppShell.xaml" Line="36" Column="1" />
-      <File FileName="SDDMajorWorkGit/App.xaml" Line="9" Column="81" />
-      <File FileName="SDDMajorWorkGit/App.xaml.cs" Line="18" Column="6" />
-      <File FileName="SDDMajorWorkGit/Resources/Styles/Dictionary.xaml" Line="1" Column="1" />
+      <File FileName="SDDMajorWorkGit/AppShell.xaml" Line="35" Column="21" />
+      <File FileName="SDDMajorWorkGit/MainPage.xaml" Line="28" Column="12" />
+      <File FileName="SDDMajorWorkGit/SearchPage.xaml" Line="4" Column="40" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -18,11 +17,8 @@
                 <Node name="Images" expanded="True" />
                 <Node name="Styles" expanded="True" />
               </Node>
-              <Node name="App.xaml" expanded="True">
-                <Node name="App.xaml.cs" selected="True" />
-              </Node>
-              <Node name="AppShell.xaml" expanded="True" />
-              <Node name="MainPage.xaml" expanded="True" />
+              <Node name="App.xaml" expanded="True" />
+              <Node name="SearchPage.xaml" expanded="True" selected="True" />
             </Node>
           </Node>
         </State>
