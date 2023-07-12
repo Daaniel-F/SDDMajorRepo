@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <_PostProcessingItem Include="SDDMajorWorkGit.app/Contents/MacOS/SDDMajorWorkGit">
+      <BCSymbolMapName>SDDMajorWorkGit.bcsymbolmap</BCSymbolMapName>
+      <NoDSymUtil>true</NoDSymUtil>
+      <dSYMSourcePathExists>false</dSYMSourcePathExists>
+      <NoSymbolStrip>true</NoSymbolStrip>
+      <dSYMInfoPlistRelativePath>SDDMajorWorkGit.app.dSYM\Contents\Info.plist</dSYMInfoPlistRelativePath>
+      <SymbolFile>/Users/danielfriend/Library/CloudStorage/OneDrive-ArdenAnglicanSchool/Year 12/SDD/Major Work/Project/SDDMajorRepo/SDDMajorWorkGit/SDDMajorWorkGit/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/mtouch-symbols.list</SymbolFile>
+      <DSymName>SDDMajorWorkGit.app.dSYM</DSymName>
+      <SourceProjectPath>/Users/danielfriend/Library/CloudStorage/OneDrive-ArdenAnglicanSchool/Year 12/SDD/Major Work/Project/SDDMajorRepo/SDDMajorWorkGit/SDDMajorWorkGit</SourceProjectPath>
+    </_PostProcessingItem>
+  </ItemGroup>
+</Project>
