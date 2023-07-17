@@ -1,9 +1,16 @@
 ﻿<Properties StartupConfiguration="{C25951C4-1CA2-48FB-8B9E-0E5466BA35FA}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="SDDMajorWorkGit/SearchPage.xaml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="SDDMajorWorkGit/SearchPage.xaml.cs">
     <Files>
-      <File FileName="SDDMajorWorkGit/AppShell.xaml" Line="35" Column="21" />
+      <File FileName="SDDMajorWorkGit/AppShell.xaml" Line="35" Column="18" />
       <File FileName="SDDMajorWorkGit/MainPage.xaml" Line="28" Column="12" />
-      <File FileName="SDDMajorWorkGit/SearchPage.xaml" Line="4" Column="40" />
+      <File FileName="SDDMajorWorkGit/SearchPage.xaml" Line="20" Column="42" />
+      <File FileName="SDDMajorWorkGit/Resources/Styles/Dictionary.xaml" Line="1" Column="1" />
+      <File FileName="SDDMajorWorkGit/LibraryPage.xaml" Line="12" Column="93" />
+      <File FileName="SDDMajorWorkGit/ProfilePage.xaml" Line="14" Column="37" />
+      <File FileName="SDDMajorWorkGit/Song.cs" Line="7" Column="30" />
+      <File FileName="SDDMajorWorkGit/Database.cs" Line="26" Column="4" />
+      <File FileName="SDDMajorWorkGit/App.xaml.cs" Line="1" Column="1" />
+      <File FileName="SDDMajorWorkGit/SearchPage.xaml.cs" Line="15" Column="62" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -18,7 +25,9 @@
                 <Node name="Styles" expanded="True" />
               </Node>
               <Node name="App.xaml" expanded="True" />
-              <Node name="SearchPage.xaml" expanded="True" selected="True" />
+              <Node name="SearchPage.xaml" expanded="True">
+                <Node name="SearchPage.xaml.cs" selected="True" />
+              </Node>
             </Node>
           </Node>
         </State>
