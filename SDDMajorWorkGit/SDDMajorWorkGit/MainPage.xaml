@@ -7,7 +7,7 @@
 
     <Grid RowDefinitions="*, 0.15*">
         <ScrollView>
-            <Grid RowDefinitions="0.4*, *" RowSpacing="20">
+            <Grid RowDefinitions="250, *" RowSpacing="20">
                 <Frame Grid.Row="0"
                        HasShadow="False" Background="{StaticResource AccentBlueGradient}"/>
                 <Label Grid.Row="0"

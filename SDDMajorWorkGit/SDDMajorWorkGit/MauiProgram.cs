@@ -18,8 +18,11 @@ public static class MauiProgram
 #if DEBUG
 		builder.Logging.AddDebug();
 #endif
+		string dbPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "song.db");
 
-		return builder.Build();
+		builder.Services.AddSingleton(s => ActivatorUtilities.CreateInstance<SongRepo>(s, dbPath));
+
+        return builder.Build();
 	}
 }
 

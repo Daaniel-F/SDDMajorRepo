@@ -2,37 +2,34 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="SDDMajorWorkGit.SearchPage"
-             x:DataType="Grid"
              BackgroundColor="{StaticResource Background1}">
 
-    <Grid RowDefinitions="*, 0.15*">
+    <Grid RowDefinitions="*, 100">
         <ScrollView>
-            <Grid RowDefinitions="0.4*, *" RowSpacing="20">
+            <Grid RowDefinitions="250, *" RowSpacing="20">
                 <Frame Grid.Row="0"
-                       HasShadow="False" Background="{StaticResource AccentPinkGradient}"/>
+                       HasShadow="False" Background="{StaticResource AccentOrangeGradient}"/>
                 <Label Grid.Row="0"
                        Text="Search" FontAttributes="Bold" FontSize="160"
                        VerticalTextAlignment="End" HorizontalTextAlignment="Start"/>
-
-                <CollectionView Grid.Row="1" x:Name="collectionView">
-                    <CollectionView.ItemTemplate>
-                        <DataTemplate>
-                            <StackLayout>
-                                <Label Text="{Binding Name}"
-                                       TextColor="White"
-                                       FontSize="Medium"/>
-                                <Label Text="{Binding Artist}"
-                                       TextColor="{StaticResource Primary}"
-                                       FontSize="Small"/>
-                            </StackLayout>
-                        </DataTemplate>
-                    </CollectionView.ItemTemplate>
-                </CollectionView>
+                <VerticalStackLayout Grid.Row="1">
+                    <SearchBar Placeholder="Search" PlaceholderColor="{StaticResource Primary}"/>
+                    <CollectionView x:Name="songList">
+                        <CollectionView.ItemTemplate>
+                            <DataTemplate>
+                                <Grid RowDefinitions="*, *" Padding="20">
+                                    <Label Grid.Row="0" Text="{Binding Name}" TextColor="White"/>
+                                    <Label Grid.Row="1" Text="{Binding Artist}" TextColor="{StaticResource Primary}"/>
+                                </Grid>
+                            </DataTemplate>
+                        </CollectionView.ItemTemplate>
+                    </CollectionView>
+                </VerticalStackLayout>
 
             </Grid>
         </ScrollView>
 
-        <Grid ColumnDefinitions="*, *, *" Grid.Row="1">
+        <Grid Grid.Row="1" ColumnDefinitions="*, *, *">
             <Frame Grid.ColumnSpan="3" Margin="10"
                    HasShadow="False" Background="{StaticResource Background2}"
                    CornerRadius="20"/>

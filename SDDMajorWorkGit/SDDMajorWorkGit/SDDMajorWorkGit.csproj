@@ -54,6 +54,7 @@
 	<ItemGroup>
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="7.0.0" />
 		<PackageReference Include="sqlite-net-pcl" Version="1.8.116" />
+		<PackageReference Include="SQLitePCLRaw.bundle_green" Version="2.1.5" />
 	</ItemGroup>
 
 	<ItemGroup>
@@ -65,6 +66,7 @@
 	  <None Remove="Resources\Images\profile_button_unselected.svg" />
 	  <None Remove="Resources\Images\search_button_selected.svg" />
 	  <None Remove="Resources\Images\search_button_unselected.svg" />
+	  <None Remove="Models\" />
 	</ItemGroup>
 	<ItemGroup>
 	  <BundleResource Include="Resources\Images\home_button_selected_2.svg" />
@@ -75,5 +77,8 @@
 	  <BundleResource Include="Resources\Images\profile_button_unselected.svg" />
 	  <BundleResource Include="Resources\Images\search_button_selected.svg" />
 	  <BundleResource Include="Resources\Images\search_button_unselected.svg" />
+	</ItemGroup>
+	<ItemGroup>
+	  <Folder Include="Models\" />
 	</ItemGroup>
 </Project>

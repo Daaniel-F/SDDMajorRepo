@@ -44,6 +44,10 @@
 		<data>
 		WTGgRwsCJJaoH7w8tveem8iWkn4=
 		</data>
+		<key>Resources/MauiInfo.plist</key>
+		<data>
+		iEtuUGCV6JM3gxS/pO33swhmpp8=
+		</data>
 		<key>Resources/MonoTouchDebugConfiguration.txt</key>
 		<data>
 		oowkf1sL6T19nanXUObgmuayWqM=
@@ -322,14 +326,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			hPg1HHaTavy/2/9kptpAwBpJGRPm1FJx6LVW09i3JYw=
+			EaZG5xf2S5CbuwQa6iwAvOZe37Vrm7KSkm3iLGgUJ60=
 			</data>
 		</dict>
 		<key>MonoBundle/SDDMajorWorkGit.pdb</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Kb7FDv9tzTaB50e1Xoo9NRZQ1299j3uyPKot8aqAhEE=
+			ZPXjnInHapn7T5tL/lvIZAcCJb+Mh4+mYKO6IKVXNFM=
 			</data>
 		</dict>
 		<key>MonoBundle/SQLite-net.dll</key>
@@ -343,14 +347,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			CfW9YSGfunnLgdH6QG8jwazapaObRUXq87nPs7OG2sU=
+			4ddX31CjB5sBv/er2I1o1Fa8Ya+g1NjhmAyrnTbNPSU=
 			</data>
 		</dict>
 		<key>MonoBundle/SQLitePCLRaw.core.dll</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			yRcyT6bqHwOGzBQK2R/Pq5DiOF0McLYibBg0/tELlzI=
+			9CTceyrHFy4wQaxWdgOgzqlA+/3tiiqN9Tsqoi1EXaU=
 			</data>
 		</dict>
 		<key>MonoBundle/SQLitePCLRaw.nativelibrary.dll</key>
@@ -365,6 +369,13 @@
 			<key>hash2</key>
 			<data>
 			RlKEwOHpxJVVOfepV31LUzLidIEBdD+JNMaY+mJgmRE=
+			</data>
+		</dict>
+		<key>MonoBundle/SQLitePCLRaw.provider.e_sqlite3.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			MLz7gR8dT3G6FnjpcKru7rrhHF7LWV1M+b1PAKsoT2U=
 			</data>
 		</dict>
 		<key>MonoBundle/System.AppContext.dll</key>
@@ -1536,6 +1547,13 @@
 			PP6Ann+zlXMZ+NiS2UQooajWN3bB/RXgZGoFdTS1wUM=
 			</data>
 		</dict>
+		<key>MonoBundle/libe_sqlite3.dylib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			4kZFaUf1noLlGizNxz735Q8Q9IOHKg6ah6MX+eBBN7M=
+			</data>
+		</dict>
 		<key>MonoBundle/libmonosgen-2.0.dylib</key>
 		<dict>
 			<key>hash2</key>
@@ -1639,6 +1657,13 @@
 			<key>hash2</key>
 			<data>
 			4EWL23HFG+OtkdTaovz6d+qBA7uouAvCrRnN302s62E=
+			</data>
+		</dict>
+		<key>Resources/MauiInfo.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			tx0KXqEC+DvcCGyogQTEQWHcCWJYYqH24NtPwhpQEjo=
 			</data>
 		</dict>
 		<key>Resources/MonoTouchDebugConfiguration.txt</key>
