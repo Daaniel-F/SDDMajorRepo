@@ -9,6 +9,8 @@ namespace SDDMajorWorkGit.Models
 		public int Id { get; set; }
 		public string Name { get; set; }
 		public string Artist { get; set; }
+		public string Cover { get; set; }
+		public string Music { get; set; }
 	}
 }
 

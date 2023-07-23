@@ -67,6 +67,9 @@
 	  <None Remove="Resources\Images\search_button_selected.svg" />
 	  <None Remove="Resources\Images\search_button_unselected.svg" />
 	  <None Remove="Models\" />
+	  <None Remove="Resources\Images\song_cover_placeholder.jpeg" />
+	  <None Remove="Resources\Music\" />
+	  <None Remove="Resources\Music\allthat.mp3" />
 	</ItemGroup>
 	<ItemGroup>
 	  <BundleResource Include="Resources\Images\home_button_selected_2.svg" />
@@ -77,8 +80,11 @@
 	  <BundleResource Include="Resources\Images\profile_button_unselected.svg" />
 	  <BundleResource Include="Resources\Images\search_button_selected.svg" />
 	  <BundleResource Include="Resources\Images\search_button_unselected.svg" />
+	  <BundleResource Include="Resources\Images\song_cover_placeholder.jpeg" />
+	  <BundleResource Include="Resources\Music\allthat.mp3" />
 	</ItemGroup>
 	<ItemGroup>
 	  <Folder Include="Models\" />
+	  <Folder Include="Resources\Music\" />
 	</ItemGroup>
 </Project>

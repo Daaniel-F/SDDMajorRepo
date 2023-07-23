@@ -44,6 +44,10 @@
 		<data>
 		WTGgRwsCJJaoH7w8tveem8iWkn4=
 		</data>
+		<key>Resources/Images/song_cover_placeholder.jpeg</key>
+		<data>
+		/dUPKKQYSbleRJa0nndm/gEJZkE=
+		</data>
 		<key>Resources/MauiInfo.plist</key>
 		<data>
 		iEtuUGCV6JM3gxS/pO33swhmpp8=
@@ -51,6 +55,10 @@
 		<key>Resources/MonoTouchDebugConfiguration.txt</key>
 		<data>
 		oowkf1sL6T19nanXUObgmuayWqM=
+		</data>
+		<key>Resources/Music/allthat.mp3</key>
+		<data>
+		5NorPymdZDxC6v2OOBrh1dvg06g=
 		</data>
 		<key>Resources/OpenSans-Regular.ttf</key>
 		<data>
@@ -171,6 +179,10 @@
 		<key>Resources/search_button_unselected@3x.png</key>
 		<data>
 		k/SD7v6vxBBiIQekXROlv9/94pg=
+		</data>
+		<key>Resources/song_cover_placeholder.jpeg</key>
+		<data>
+		/dUPKKQYSbleRJa0nndm/gEJZkE=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -326,14 +338,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			LEDWzMtbeqP6/KhZVsoItmk8Ff2OrnFThALS/ltr3+0=
+			7ozf1ll4inVQcrMzYhrK2u7aFvTwp+ZxIIrN7BjeTsI=
 			</data>
 		</dict>
 		<key>MonoBundle/SDDMajorWorkGit.pdb</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wFuU/xc1phdyrMq3xkuFbGwEb4+3jwfa7acyPpOB46Q=
+			+njvhx6O8QBMolc4rIpaSbjQKi5Z9qRT+2283h//kY8=
 			</data>
 		</dict>
 		<key>MonoBundle/SQLite-net.dll</key>
@@ -1645,6 +1657,13 @@
 			4EWL23HFG+OtkdTaovz6d+qBA7uouAvCrRnN302s62E=
 			</data>
 		</dict>
+		<key>Resources/Images/song_cover_placeholder.jpeg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			buF3EX6d3xMhd86Y1TmWLxqMquDwYvRFpjkYeLtnlkI=
+			</data>
+		</dict>
 		<key>Resources/MauiInfo.plist</key>
 		<dict>
 			<key>hash2</key>
@@ -1657,6 +1676,13 @@
 			<key>hash2</key>
 			<data>
 			RS51BO98d+zhJWK1abJOyD5jB4nYJnWJPtL2DZyA/zw=
+			</data>
+		</dict>
+		<key>Resources/Music/allthat.mp3</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ZLtSYWW27eYncS5WBhacmxi7F4JNdlTtZW2PvWVMrHk=
 			</data>
 		</dict>
 		<key>Resources/OpenSans-Regular.ttf</key>
@@ -1867,6 +1893,13 @@
 			<key>hash2</key>
 			<data>
 			gKvqVAe/8bdaOgn5go9JdsZ8ltasatcKBHhV73twuFg=
+			</data>
+		</dict>
+		<key>Resources/song_cover_placeholder.jpeg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			buF3EX6d3xMhd86Y1TmWLxqMquDwYvRFpjkYeLtnlkI=
 			</data>
 		</dict>
 	</dict>
