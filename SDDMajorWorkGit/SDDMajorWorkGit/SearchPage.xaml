@@ -13,7 +13,7 @@
                        Text="Search" FontAttributes="Bold" FontSize="160"
                        VerticalTextAlignment="End" HorizontalTextAlignment="Start"/>
                 <VerticalStackLayout Grid.Row="1">
-                    <SearchBar Placeholder="Search" PlaceholderColor="{StaticResource Primary}"/>
+                    <SearchBar Placeholder="Search" PlaceholderColor="{StaticResource Primary}" TextChanged="SearchBar_TextChanged"/>
                     <CollectionView x:Name="songList">
                         <CollectionView.ItemTemplate>
                             <DataTemplate>
