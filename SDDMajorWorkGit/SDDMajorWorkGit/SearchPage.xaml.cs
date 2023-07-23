@@ -9,12 +9,7 @@ public partial class SearchPage : ContentPage
 	{
 		InitializeComponent();
 
-		App.SongRepo.Add(new Song
-		{
-			Name = "Hello",
-			Artist = "Test"
-		});
-
-        songList.ItemsSource = App.SongRepo.GetAllSongs();
+		//Collection view gets content from SongRepo
+		songList.ItemsSource = App.SongRepo.GetAllSongs();
 	}
 }

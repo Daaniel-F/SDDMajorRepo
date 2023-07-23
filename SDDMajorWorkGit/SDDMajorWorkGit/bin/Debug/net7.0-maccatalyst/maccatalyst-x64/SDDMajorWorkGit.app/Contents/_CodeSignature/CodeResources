@@ -44,6 +44,10 @@
 		<data>
 		WTGgRwsCJJaoH7w8tveem8iWkn4=
 		</data>
+		<key>Resources/MauiInfo.plist</key>
+		<data>
+		iEtuUGCV6JM3gxS/pO33swhmpp8=
+		</data>
 		<key>Resources/MonoTouchDebugConfiguration.txt</key>
 		<data>
 		oowkf1sL6T19nanXUObgmuayWqM=
@@ -322,14 +326,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			7gBkhAFlUrMxiCve5okbr/N7XM4cZmot79g8w0ZZ8Pc=
+			Q1w0krJqEpFMgsab0vkIn33b6n1+tqsChp5mZi1UTss=
 			</data>
 		</dict>
 		<key>MonoBundle/SDDMajorWorkGit.pdb</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			rZLoWJwf5+62V7RYvkQpuxEF/di6tfo5tpu8e0dv0AM=
+			U+Lj+oyH6jfhkvEruhGE8Efx1Uuu6jAV6odHWKUTiwE=
 			</data>
 		</dict>
 		<key>MonoBundle/SQLite-net.dll</key>
@@ -1639,6 +1643,13 @@
 			<key>hash2</key>
 			<data>
 			4EWL23HFG+OtkdTaovz6d+qBA7uouAvCrRnN302s62E=
+			</data>
+		</dict>
+		<key>Resources/MauiInfo.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			tx0KXqEC+DvcCGyogQTEQWHcCWJYYqH24NtPwhpQEjo=
 			</data>
 		</dict>
 		<key>Resources/MonoTouchDebugConfiguration.txt</key>

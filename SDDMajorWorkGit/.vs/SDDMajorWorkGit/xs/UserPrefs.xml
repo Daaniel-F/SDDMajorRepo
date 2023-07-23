@@ -2,31 +2,30 @@
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workbench ActiveDocument="SDDMajorWorkGit/SearchPage.xaml">
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="MyAppleMacCatalystID" />
+  <MonoDevelop.Ide.ItemProperties.SDDMajorWorkGit PreferredExecutionTarget="MyAppleMacCatalystID" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="SDDMajorWorkGit/SongRepo.cs">
     <Files>
-      <File FileName="SDDMajorWorkGit/SearchPage.xaml" Line="38" Column="42" />
+      <File FileName="SDDMajorWorkGit/SearchPage.xaml" />
       <File FileName="SDDMajorWorkGit/SearchPage.xaml.cs" />
       <File FileName="SDDMajorWorkGit/App.xaml.cs" />
       <File FileName="SDDMajorWorkGit/MauiProgram.cs" />
       <File FileName="SDDMajorWorkGit/MainPage.xaml.cs" />
+      <File FileName="SDDMajorWorkGit/SongRepo.cs" Line="31" Column="1" />
+      <File FileName="SDDMajorWorkGit/Platforms/MacCatalyst/Program.cs" />
+      <File FileName="SDDMajorWorkGit/Models/Song.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="SDDMajorWorkGit" expanded="True">
-            <Node name="SDDMajorWorkGit">
-              <Node name="Platforms" expanded="True">
-                <Node name="MacCatalyst" selected="True" />
-              </Node>
-            </Node>
+            <Node name="SDDMajorWorkGit" expanded="True" />
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.SDDMajorWorkGit PreferredExecutionTarget="Android.SelectDevice" />
-  <Xamarin.Addins.Core.Project ActiveDebugTarget="Android.SelectDevice" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

@@ -2,7 +2,7 @@
 using SQLite;
 namespace SDDMajorWorkGit.Models
 {
-	[Table("songs")]
+	[Table("song")]
 	public class Song
 	{
 		[PrimaryKey, AutoIncrement, Column("Id")]
