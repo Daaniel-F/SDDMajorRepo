@@ -1,5 +1,7 @@
 @string/appbar_scrolling_view_behavior;/Users/danielfriend/Library/CloudStorage/OneDrive-ArdenAnglicanSchool/Year 12/SDD/Major Work/Project/SDDMajorRepo/SDDMajorWorkGit/SDDMajorWorkGit/obj/Debug/net7.0-android/lp/157/jl/res/layout/fragment_backstack.xml
 @string/appbar_scrolling_view_behavior;/Users/danielfriend/Library/CloudStorage/OneDrive-ArdenAnglicanSchool/Year 12/SDD/Major Work/Project/SDDMajorRepo/SDDMajorWorkGit/SDDMajorWorkGit/obj/Debug/net7.0-android/lp/157/jl/res/layout/navigationlayout.xml
+adaptive-icon;obj/Debug/net7.0-android/resizetizer/r/mipmap-anydpi-v26/appicon_round.xml
+adaptive-icon;obj/Debug/net7.0-android/resizetizer/r/mipmap-anydpi-v26/appicon.xml
 alpha;/Users/danielfriend/Library/CloudStorage/OneDrive-ArdenAnglicanSchool/Year 12/SDD/Major Work/Project/SDDMajorRepo/SDDMajorWorkGit/SDDMajorWorkGit/obj/Debug/net7.0-android/lp/154/jl/res/anim/enterfromleft.xml
 alpha;/Users/danielfriend/Library/CloudStorage/OneDrive-ArdenAnglicanSchool/Year 12/SDD/Major Work/Project/SDDMajorRepo/SDDMajorWorkGit/SDDMajorWorkGit/obj/Debug/net7.0-android/lp/154/jl/res/anim/exittoleft.xml
 alpha;/Users/danielfriend/Library/CloudStorage/OneDrive-ArdenAnglicanSchool/Year 12/SDD/Major Work/Project/SDDMajorRepo/SDDMajorWorkGit/SDDMajorWorkGit/obj/Debug/net7.0-android/lp/157/jl/res/anim/nav_default_enter_anim.xml
@@ -13,6 +15,8 @@ androidx.fragment.app.FragmentContainerView;/Users/danielfriend/Library/CloudSto
 androidx.fragment.app.FragmentContainerView;/Users/danielfriend/Library/CloudStorage/OneDrive-ArdenAnglicanSchool/Year 12/SDD/Major Work/Project/SDDMajorRepo/SDDMajorWorkGit/SDDMajorWorkGit/obj/Debug/net7.0-android/lp/157/jl/res/layout/navigationlayout.xml
 attr;/Users/danielfriend/Library/CloudStorage/OneDrive-ArdenAnglicanSchool/Year 12/SDD/Major Work/Project/SDDMajorRepo/SDDMajorWorkGit/SDDMajorWorkGit/obj/Debug/net7.0-android/lp/155/jl/res/values/attrs.xml
 attr;/Users/danielfriend/Library/CloudStorage/OneDrive-ArdenAnglicanSchool/Year 12/SDD/Major Work/Project/SDDMajorRepo/SDDMajorWorkGit/SDDMajorWorkGit/obj/Debug/net7.0-android/lp/157/jl/res/values/attr.xml
+background;obj/Debug/net7.0-android/resizetizer/r/mipmap-anydpi-v26/appicon_round.xml
+background;obj/Debug/net7.0-android/resizetizer/r/mipmap-anydpi-v26/appicon.xml
 cache-path;/Users/danielfriend/Library/CloudStorage/OneDrive-ArdenAnglicanSchool/Year 12/SDD/Major Work/Project/SDDMajorRepo/SDDMajorWorkGit/SDDMajorWorkGit/obj/Debug/net7.0-android/lp/158/jl/res/xml/microsoft_maui_essentials_fileprovider_file_paths.xml
 color;/Users/danielfriend/Library/CloudStorage/OneDrive-ArdenAnglicanSchool/Year 12/SDD/Major Work/Project/SDDMajorRepo/SDDMajorWorkGit/SDDMajorWorkGit/obj/Debug/net7.0-android/lp/157/jl/res/values/colors.xml
 color;obj/Debug/net7.0-android/res/values/colors.xml
@@ -25,6 +29,8 @@ declare-styleable;/Users/danielfriend/Library/CloudStorage/OneDrive-ArdenAnglica
 declare-styleable;/Users/danielfriend/Library/CloudStorage/OneDrive-ArdenAnglicanSchool/Year 12/SDD/Major Work/Project/SDDMajorRepo/SDDMajorWorkGit/SDDMajorWorkGit/obj/Debug/net7.0-android/lp/157/jl/res/values/attr.xml
 external-cache-path;/Users/danielfriend/Library/CloudStorage/OneDrive-ArdenAnglicanSchool/Year 12/SDD/Major Work/Project/SDDMajorRepo/SDDMajorWorkGit/SDDMajorWorkGit/obj/Debug/net7.0-android/lp/158/jl/res/xml/microsoft_maui_essentials_fileprovider_file_paths.xml
 external-path;/Users/danielfriend/Library/CloudStorage/OneDrive-ArdenAnglicanSchool/Year 12/SDD/Major Work/Project/SDDMajorRepo/SDDMajorWorkGit/SDDMajorWorkGit/obj/Debug/net7.0-android/lp/158/jl/res/xml/microsoft_maui_essentials_fileprovider_file_paths.xml
+foreground;obj/Debug/net7.0-android/resizetizer/r/mipmap-anydpi-v26/appicon_round.xml
+foreground;obj/Debug/net7.0-android/resizetizer/r/mipmap-anydpi-v26/appicon.xml
 item;/Users/danielfriend/Library/CloudStorage/OneDrive-ArdenAnglicanSchool/Year 12/SDD/Major Work/Project/SDDMajorRepo/SDDMajorWorkGit/SDDMajorWorkGit/obj/Debug/net7.0-android/lp/155/jl/res/values/styles.xml
 item;/Users/danielfriend/Library/CloudStorage/OneDrive-ArdenAnglicanSchool/Year 12/SDD/Major Work/Project/SDDMajorRepo/SDDMajorWorkGit/SDDMajorWorkGit/obj/Debug/net7.0-android/lp/157/jl/res/drawable/maui_splash.xml
 item;/Users/danielfriend/Library/CloudStorage/OneDrive-ArdenAnglicanSchool/Year 12/SDD/Major Work/Project/SDDMajorRepo/SDDMajorWorkGit/SDDMajorWorkGit/obj/Debug/net7.0-android/lp/157/jl/res/values/styles.xml
