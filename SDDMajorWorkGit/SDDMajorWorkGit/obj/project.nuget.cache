@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "ckxlRM9CbzlBv1/23oku4KI8bN4JqMjSou4FDVoFCNUCIxZvj+rC6uBeVTFIXwJohdMppCmOveX1Voti6HyPgw==",
+  "dgSpecHash": "QiZfo/CWWXhTk+LVkWT0qT4uHO7fkLNnvilzdXzeRa+F6BjeMD8abUQmZXgE5LXS7eHotWG9pZLUk3gqJs87Fg==",
   "success": true,
   "projectFilePath": "/Users/danielfriend/Library/CloudStorage/OneDrive-ArdenAnglicanSchool/Year 12/SDD/Major Work/Project/SDDMajorRepo/SDDMajorWorkGit/SDDMajorWorkGit/SDDMajorWorkGit.csproj",
   "expectedPackageFiles": [
+    "/Users/danielfriend/.nuget/packages/communitytoolkit.mvvm/8.2.1/communitytoolkit.mvvm.8.2.1.nupkg.sha512",
     "/Users/danielfriend/.nuget/packages/googlegson/2.9.1.1/googlegson.2.9.1.1.nupkg.sha512",
     "/Users/danielfriend/.nuget/packages/microsoft.extensions.configuration/7.0.0/microsoft.extensions.configuration.7.0.0.nupkg.sha512",
     "/Users/danielfriend/.nuget/packages/microsoft.extensions.configuration.abstractions/7.0.0/microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",

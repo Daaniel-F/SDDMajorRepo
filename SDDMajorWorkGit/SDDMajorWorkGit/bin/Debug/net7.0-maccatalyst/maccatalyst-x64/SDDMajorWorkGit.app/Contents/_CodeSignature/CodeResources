@@ -215,6 +215,13 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>MonoBundle/CommunityToolkit.Mvvm.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			kITXcDSliPRPBl82y/lmv46MR+knIamF5JmRNbcKO18=
+			</data>
+		</dict>
 		<key>MonoBundle/Microsoft.CSharp.dll</key>
 		<dict>
 			<key>hash2</key>
@@ -373,14 +380,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			RmWFOCa61NLvysHIt58Knl65maVCs9zMNNlw6ZHSe2M=
+			8xkmx27jqgBOawgRP5q062un+DH1+7ubCqfRpRxlO6Q=
 			</data>
 		</dict>
 		<key>MonoBundle/SDDMajorWorkGit.pdb</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			es7WM9z+iM017KxXHmfnfEf2eGPd/v6WblBlCMCLYuk=
+			Z72Mo58rO/qeGLLQo+Jhdr84ZhjcdlOGpQ4L5eN5hqw=
 			</data>
 		</dict>
 		<key>MonoBundle/SQLite-net.dll</key>

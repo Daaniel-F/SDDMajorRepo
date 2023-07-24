@@ -24,7 +24,7 @@ public static class MauiProgram
 		builder.Services.AddSingleton(s => ActivatorUtilities.CreateInstance<SongRepo>(s, dbPath));
 
 		builder.Services.AddSingleton(AudioManager.Current);
-		builder.Services.AddTransient<SearchPage>();
+		builder.Services.AddSingleton<SearchPage>();
 
         return builder.Build();
 	}
