@@ -55,6 +55,7 @@
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="7.0.0" />
 		<PackageReference Include="sqlite-net-pcl" Version="1.8.116" />
 		<PackageReference Include="SQLitePCLRaw.bundle_green" Version="2.1.5" />
+		<PackageReference Include="Plugin.Maui.Audio" Version="1.0.0" />
 	</ItemGroup>
 
 	<ItemGroup>
@@ -68,8 +69,10 @@
 	  <None Remove="Resources\Images\search_button_unselected.svg" />
 	  <None Remove="Models\" />
 	  <None Remove="Resources\Images\song_cover_placeholder.jpeg" />
-	  <None Remove="Resources\Music\" />
-	  <None Remove="Resources\Music\allthat.mp3" />
+	  <None Remove="Resources\Raw\allthat.mp3" />
+	  <None Remove="Resources\Raw\dreams.mp3" />
+	  <None Remove="Resources\Raw\inspire.mp3" />
+	  <None Remove="Resources\Raw\jazzyfrenchy.mp3" />
 	</ItemGroup>
 	<ItemGroup>
 	  <BundleResource Include="Resources\Images\home_button_selected_2.svg" />
@@ -81,10 +84,12 @@
 	  <BundleResource Include="Resources\Images\search_button_selected.svg" />
 	  <BundleResource Include="Resources\Images\search_button_unselected.svg" />
 	  <BundleResource Include="Resources\Images\song_cover_placeholder.jpeg" />
-	  <BundleResource Include="Resources\Music\allthat.mp3" />
+	  <BundleResource Include="Resources\Raw\allthat.mp3" />
+	  <BundleResource Include="Resources\Raw\dreams.mp3" />
+	  <BundleResource Include="Resources\Raw\inspire.mp3" />
+	  <BundleResource Include="Resources\Raw\jazzyfrenchy.mp3" />
 	</ItemGroup>
 	<ItemGroup>
 	  <Folder Include="Models\" />
-	  <Folder Include="Resources\Music\" />
 	</ItemGroup>
 </Project>

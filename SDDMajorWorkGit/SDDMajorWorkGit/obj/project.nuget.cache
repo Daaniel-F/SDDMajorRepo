@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ASyeNyPWKl1E24hS23n0aWBemgC5yxxlSPSxDzkFJGLfAHDtdfkGxH6I8VqjuD88WlW+zB+WbgNc+vH3E9s9Sw==",
+  "dgSpecHash": "ckxlRM9CbzlBv1/23oku4KI8bN4JqMjSou4FDVoFCNUCIxZvj+rC6uBeVTFIXwJohdMppCmOveX1Voti6HyPgw==",
   "success": true,
   "projectFilePath": "/Users/danielfriend/Library/CloudStorage/OneDrive-ArdenAnglicanSchool/Year 12/SDD/Major Work/Project/SDDMajorRepo/SDDMajorWorkGit/SDDMajorWorkGit/SDDMajorWorkGit.csproj",
   "expectedPackageFiles": [
@@ -15,6 +15,7 @@
     "/Users/danielfriend/.nuget/packages/microsoft.extensions.options/7.0.0/microsoft.extensions.options.7.0.0.nupkg.sha512",
     "/Users/danielfriend/.nuget/packages/microsoft.extensions.primitives/7.0.0/microsoft.extensions.primitives.7.0.0.nupkg.sha512",
     "/Users/danielfriend/.nuget/packages/microsoft.maui.graphics/7.0.92/microsoft.maui.graphics.7.0.92.nupkg.sha512",
+    "/Users/danielfriend/.nuget/packages/plugin.maui.audio/1.0.0/plugin.maui.audio.1.0.0.nupkg.sha512",
     "/Users/danielfriend/.nuget/packages/sqlite-net-pcl/1.8.116/sqlite-net-pcl.1.8.116.nupkg.sha512",
     "/Users/danielfriend/.nuget/packages/sqlitepclraw.bundle_green/2.1.5/sqlitepclraw.bundle_green.2.1.5.nupkg.sha512",
     "/Users/danielfriend/.nuget/packages/sqlitepclraw.core/2.1.5/sqlitepclraw.core.2.1.5.nupkg.sha512",

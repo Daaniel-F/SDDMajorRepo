@@ -1,4 +1,5 @@
 ﻿using Microsoft.Extensions.Logging;
+using Plugin.Maui.Audio;
 
 namespace SDDMajorWorkGit;
 
@@ -21,6 +22,9 @@ public static class MauiProgram
 		string dbPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "song_repo.db");
 
 		builder.Services.AddSingleton(s => ActivatorUtilities.CreateInstance<SongRepo>(s, dbPath));
+
+		builder.Services.AddSingleton(AudioManager.Current);
+		builder.Services.AddTransient<SearchPage>();
 
         return builder.Build();
 	}

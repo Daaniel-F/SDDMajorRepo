@@ -79,6 +79,10 @@
               "version": "[7.0.92, )",
               "autoReferenced": true
             },
+            "Plugin.Maui.Audio": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
             "SQLitePCLRaw.bundle_green": {
               "target": "Package",
               "version": "[2.1.5, )"
@@ -205,6 +209,10 @@
               "version": "[7.0.92, )",
               "autoReferenced": true
             },
+            "Plugin.Maui.Audio": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
             "SQLitePCLRaw.bundle_green": {
               "target": "Package",
               "version": "[2.1.5, )"
@@ -275,6 +283,10 @@
               "target": "Package",
               "version": "[7.0.92, )",
               "autoReferenced": true
+            },
+            "Plugin.Maui.Audio": {
+              "target": "Package",
+              "version": "[1.0.0, )"
             },
             "SQLitePCLRaw.bundle_green": {
               "target": "Package",

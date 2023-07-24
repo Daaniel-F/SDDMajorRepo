@@ -56,10 +56,6 @@
 		<data>
 		oowkf1sL6T19nanXUObgmuayWqM=
 		</data>
-		<key>Resources/Music/allthat.mp3</key>
-		<data>
-		5NorPymdZDxC6v2OOBrh1dvg06g=
-		</data>
 		<key>Resources/OpenSans-Regular.ttf</key>
 		<data>
 		DFxumkHfRbtkYD0r3ZzpBhKicTs=
@@ -67,6 +63,26 @@
 		<key>Resources/OpenSans-Semibold.ttf</key>
 		<data>
 		cM1HnMw/amdCZBuQSq+jglQIUuQ=
+		</data>
+		<key>Resources/Raw/allthat.mp3</key>
+		<data>
+		5NorPymdZDxC6v2OOBrh1dvg06g=
+		</data>
+		<key>Resources/Raw/dreams.mp3</key>
+		<data>
+		Qwul2AHFCS3X5P49fqAFmQhmpVc=
+		</data>
+		<key>Resources/Raw/inspire.mp3</key>
+		<data>
+		qqTs7tR6QK7Vlgp9SvUjOQ/uSI4=
+		</data>
+		<key>Resources/Raw/jazzyfrenchy.mp3</key>
+		<data>
+		fN2//e4+3Py3EZhSDHZFRQYNG2s=
+		</data>
+		<key>Resources/allthat.mp3</key>
+		<data>
+		5NorPymdZDxC6v2OOBrh1dvg06g=
 		</data>
 		<key>Resources/appicon.icns</key>
 		<data>
@@ -83,6 +99,10 @@
 		<key>Resources/dotnet_bot@3x.png</key>
 		<data>
 		AgG9OaBqGlLlSsDbnE/6b1bb0xU=
+		</data>
+		<key>Resources/dreams.mp3</key>
+		<data>
+		Qwul2AHFCS3X5P49fqAFmQhmpVc=
 		</data>
 		<key>Resources/home_button_selected_2.png</key>
 		<data>
@@ -107,6 +127,14 @@
 		<key>Resources/home_button_unselected_2@3x.png</key>
 		<data>
 		S6mVotMRSYoKhtMlsVvY4rpKnQ4=
+		</data>
+		<key>Resources/inspire.mp3</key>
+		<data>
+		qqTs7tR6QK7Vlgp9SvUjOQ/uSI4=
+		</data>
+		<key>Resources/jazzyfrenchy.mp3</key>
+		<data>
+		fN2//e4+3Py3EZhSDHZFRQYNG2s=
 		</data>
 		<key>Resources/library_button_selected.png</key>
 		<data>
@@ -334,18 +362,25 @@
 			JgyRFb7Fnt7Olh4BlWJjofs1Ta2Bew6RIeZ6d7OUUGI=
 			</data>
 		</dict>
+		<key>MonoBundle/Plugin.Maui.Audio.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			L9g4t/KpJeCui0ppA7q1WM+1BWc2BlOrRFXIEYot1J4=
+			</data>
+		</dict>
 		<key>MonoBundle/SDDMajorWorkGit.dll</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7ozf1ll4inVQcrMzYhrK2u7aFvTwp+ZxIIrN7BjeTsI=
+			RmWFOCa61NLvysHIt58Knl65maVCs9zMNNlw6ZHSe2M=
 			</data>
 		</dict>
 		<key>MonoBundle/SDDMajorWorkGit.pdb</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+njvhx6O8QBMolc4rIpaSbjQKi5Z9qRT+2283h//kY8=
+			es7WM9z+iM017KxXHmfnfEf2eGPd/v6WblBlCMCLYuk=
 			</data>
 		</dict>
 		<key>MonoBundle/SQLite-net.dll</key>
@@ -1678,13 +1713,6 @@
 			RS51BO98d+zhJWK1abJOyD5jB4nYJnWJPtL2DZyA/zw=
 			</data>
 		</dict>
-		<key>Resources/Music/allthat.mp3</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			ZLtSYWW27eYncS5WBhacmxi7F4JNdlTtZW2PvWVMrHk=
-			</data>
-		</dict>
 		<key>Resources/OpenSans-Regular.ttf</key>
 		<dict>
 			<key>hash2</key>
@@ -1697,6 +1725,41 @@
 			<key>hash2</key>
 			<data>
 			0J8H7bvjT09kwGlMeCoRcEpyKBFUw+w7n76tmmxpcVM=
+			</data>
+		</dict>
+		<key>Resources/Raw/allthat.mp3</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ZLtSYWW27eYncS5WBhacmxi7F4JNdlTtZW2PvWVMrHk=
+			</data>
+		</dict>
+		<key>Resources/Raw/dreams.mp3</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			tXdMcEMqaoyJXnIuLKlsHOv2z/gHgNh0iGdjIlYWrTY=
+			</data>
+		</dict>
+		<key>Resources/Raw/inspire.mp3</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			MuMv5SMGehctwkozqvElvPawfgp4HUQCRqhK9tTU6zU=
+			</data>
+		</dict>
+		<key>Resources/Raw/jazzyfrenchy.mp3</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			T5TC8q/4bQMedw1+ZcUZ6PtazDU6OG9/RZu6yYCyOCA=
+			</data>
+		</dict>
+		<key>Resources/allthat.mp3</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ZLtSYWW27eYncS5WBhacmxi7F4JNdlTtZW2PvWVMrHk=
 			</data>
 		</dict>
 		<key>Resources/appicon.icns</key>
@@ -1725,6 +1788,13 @@
 			<key>hash2</key>
 			<data>
 			06Dw48r2qORp1zVQzu1FMEqEQpN18taU/bp0JACYc40=
+			</data>
+		</dict>
+		<key>Resources/dreams.mp3</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			tXdMcEMqaoyJXnIuLKlsHOv2z/gHgNh0iGdjIlYWrTY=
 			</data>
 		</dict>
 		<key>Resources/home_button_selected_2.png</key>
@@ -1767,6 +1837,20 @@
 			<key>hash2</key>
 			<data>
 			QmmnKl+jbU20mYB5LQ+UXF2uEfJrE7VLxL/AEWDa/3c=
+			</data>
+		</dict>
+		<key>Resources/inspire.mp3</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			MuMv5SMGehctwkozqvElvPawfgp4HUQCRqhK9tTU6zU=
+			</data>
+		</dict>
+		<key>Resources/jazzyfrenchy.mp3</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			T5TC8q/4bQMedw1+ZcUZ6PtazDU6OG9/RZu6yYCyOCA=
 			</data>
 		</dict>
 		<key>Resources/library_button_selected.png</key>
