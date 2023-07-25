@@ -2,17 +2,46 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="SDDMajorWorkGit.LibraryPage"
-             x:DataType="Grid"
              BackgroundColor="{StaticResource Background1}">
 
-    <Grid RowDefinitions="*, 0.15*">
+    <Grid RowDefinitions="*, 100">
         <ScrollView>
-            <Grid RowDefinitions="0.4*, *" RowSpacing="20">
+            <Grid RowDefinitions="250, *" RowSpacing="20">
                 <Frame Grid.Row="0"
                        HasShadow="False" Background="{StaticResource AccentGreenGradient}"/>
                 <Label Grid.Row="0"
                        Text="Library" FontAttributes="Bold" FontSize="160"
                        VerticalTextAlignment="End" HorizontalTextAlignment="Start"/>
+
+                <VerticalStackLayout Grid.Row="1" Padding="20">
+                    <Button x:Name="CreatePlaylist" Text="+ Create Playlist" BackgroundColor="{StaticResource Primary}" TextColor="{StaticResource Background1}"
+                            MaximumWidthRequest="300" FontSize="30" FontAttributes="Bold" CornerRadius="20" HorizontalOptions="Start"
+                            Clicked="CreatePlaylist_Clicked"/>
+
+                    <Grid x:Name="PlaylistContent" RowDefinitions="*, *, *, *, *, *" IsVisible="false" RowSpacing="20" Padding="20">
+                        <Button x:Name="PlayPlaylist" Grid.Row="0" Text=">" TextColor="{StaticResource Background1}" FontSize="30" BackgroundColor="{StaticResource Primary}"
+                                CornerRadius="25" HeightRequest="50" WidthRequest="50" HorizontalOptions="Start"
+                                Clicked="PlayPlaylist_Clicked"/>
+                        <Label x:Name="Song1" Grid.Row="1" Text="hi" TextColor="White" FontSize="20" FontAttributes="Bold"/>
+                        <Label x:Name="Song2" Grid.Row="2" Text="hi" TextColor="White" FontSize="20" FontAttributes="Bold"/>
+                        <Label x:Name="Song3" Grid.Row="3" Text="hi" TextColor="White" FontSize="20" FontAttributes="Bold"/>
+                        <Label x:Name="Song4" Grid.Row="4" Text="hi" TextColor="White" FontSize="20" FontAttributes="Bold"/>
+                        <Label x:Name="Song5" Grid.Row="5" Text="hi" TextColor="White" FontSize="20" FontAttributes="Bold"/>
+
+                    </Grid>
+
+                    <CollectionView x:Name="PlaylistList" SelectionMode="Single" SelectionChanged="PlaylistList_SelectionChanged">
+                        <CollectionView.ItemTemplate>
+                            <DataTemplate>
+                                <Grid RowDefinitions="60" ColumnDefinitions="60, *" ColumnSpacing="20" Padding="20">
+                                    <Image Grid.Column="0" Source="{Binding Cover}"/>
+                                    <Label Grid.Column="1" Text="{Binding Name}" TextColor="White" FontSize="30" FontAttributes="Bold"/>
+                                </Grid>
+                            </DataTemplate>
+                        </CollectionView.ItemTemplate>
+                    </CollectionView>
+                </VerticalStackLayout>
+
             </Grid>
         </ScrollView>
 
@@ -20,7 +49,7 @@
             <Frame Grid.ColumnSpan="3" Margin="10"
                    HasShadow="False" Background="{StaticResource Background2}"
                    CornerRadius="20"/>
-            <ProgressBar Grid.Column="1"
+            <ProgressBar x:Name="ProgressBar" Grid.Column="1"
                          ProgressColor="{StaticResource Primary}"
                          Progress="0.5"/>
         </Grid>

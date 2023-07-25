@@ -7,6 +7,7 @@ namespace SDDMajorWorkGit;
 public partial class App : Application
 {
     public static SongRepo SongRepo { get; private set; }
+    public static PlaylistRepo PlaylistRepo { get; private set; }
 
     //Arrays used to fill SongRepo
     public string[] songNames = { "Am I Dreaming", "Mona Lisa", "I Wonder", "All That", "Dreams", "Inspire", "Jazzy Frenchy" };
@@ -17,17 +18,19 @@ public partial class App : Application
     public int i = 0;
     public bool dbFilled;
 
-    public App(SongRepo songRepo)
+    public App(SongRepo songRepo, PlaylistRepo playlistRepo)
 	{
 		InitializeComponent();
 
 		MainPage = new AppShell();
 
-        //Initialises SongRepo
+        //Initialises databases
         SongRepo = songRepo;
+        PlaylistRepo = playlistRepo;
 
         //Calls Init to initialise database connection
         SongRepo.GetAllSongs();
+        PlaylistRepo.GetAllPlaylists();
 
         //Sets dbFilled to false unless otherwise set by another Preferences class
         //Preferences.Set("dbFilled", false);

@@ -5,19 +5,19 @@ namespace SDDMajorWorkGit
 {
     public class SongRepo
     {
-        private string _dbPath;
+        private string dbPath;
         private SQLiteConnection conn;
 
         //Get dbPath from MauiProgram class
-        public SongRepo(string dbPath)
+        public SongRepo(string songDbPath)
         {
-            _dbPath = dbPath;
+            dbPath = songDbPath;
         }
 
         //Initialises database connection and creates database if one doesn't exist
         public void Init()
         {
-            conn = new SQLiteConnection(_dbPath);
+            conn = new SQLiteConnection(dbPath);
             conn.CreateTable<Song>();
         }
 
@@ -31,14 +31,14 @@ namespace SDDMajorWorkGit
         //Adds entry to the database
         public void Add(Song song)
         {
-            conn = new SQLiteConnection(_dbPath);
+            conn = new SQLiteConnection(dbPath);
             conn.Insert(song);
         }
 
         //Deletes entries from the database based on Id primary key
         public void Delete(int id)
         {
-            conn = new SQLiteConnection(_dbPath);
+            conn = new SQLiteConnection(dbPath);
             conn.Delete(new { Id = id });
         }
     }

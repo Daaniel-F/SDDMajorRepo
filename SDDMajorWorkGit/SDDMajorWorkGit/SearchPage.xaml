@@ -12,18 +12,33 @@
                 <Label Grid.Row="0"
                        Text="Search" FontAttributes="Bold" FontSize="160"
                        VerticalTextAlignment="End" HorizontalTextAlignment="Start"/>
-                <VerticalStackLayout Grid.Row="1">
-                    <SearchBar Placeholder="Search" PlaceholderColor="{StaticResource Primary}" TextChanged="SearchBar_TextChanged"/>
-                    <CollectionView x:Name="songList" SelectionMode="Single" SelectionChanged="songList_SelectionChanged">
+
+                <VerticalStackLayout Grid.Row="1" Padding="20" Spacing="20">
+                    <SearchBar Placeholder="Search" PlaceholderColor="{StaticResource Primary}" TextChanged="SearchBar_TextChanged"
+                               MaximumWidthRequest="500" HorizontalOptions="Start"/>
+
+                    <Label x:Name="AddToPlaylist" Text="Add Song To Playlist?" FontSize="30" TextColor="White" FontAttributes="Bold"/>
+                    <CollectionView x:Name="PlaylistList" SelectionMode="Single" SelectionChanged="PlaylistList_SelectionChanged"
+                                    MaximumHeightRequest="150" MinimumHeightRequest="150" MaximumWidthRequest="300" MinimumWidthRequest="300" HorizontalOptions="Start">
                         <CollectionView.ItemTemplate>
                             <DataTemplate>
-                                <Grid RowDefinitions="60" ColumnDefinitions="50, *" ColumnSpacing="20" Padding="20">
+                                <ScrollView>
+                                    <Label Grid.Row="0" Text="{Binding Name}" TextColor="White" FontSize="20" FontAttributes="Bold" HeightRequest="30"/>
+                                </ScrollView>
+                            </DataTemplate>
+                        </CollectionView.ItemTemplate>
+                    </CollectionView>
+                    <Button x:Name="AddToPlaylistCancel" Text="Cancel" TextColor="{StaticResource Primary}" FontSize="15" HorizontalOptions="Start" Clicked="AddToPlaylistCancel_Clicked"/>
+
+                    <CollectionView x:Name="songList" SelectionMode="Single" SelectionChanged="SongList_SelectionChanged">
+                        <CollectionView.ItemTemplate>
+                            <DataTemplate>
+                                <Grid RowDefinitions="60" ColumnDefinitions="60, *" ColumnSpacing="20" Padding="20">
                                     <Image Grid.Row="0" Grid.RowSpan="2" Grid.Column="0" Source="{Binding Cover}"/>
                                     <Grid RowDefinitions="*, *" Grid.Column="1">
-                                        <Label x:Name="songName" Grid.Row="0" Text="{Binding Name}" TextColor="White" FontSize="20" FontAttributes="Bold"/>
+                                        <Label Grid.Row="0" Text="{Binding Name}" TextColor="White" FontSize="20" FontAttributes="Bold"/>
                                         <Label Grid.Row="1" Text="{Binding Artist}" TextColor="{StaticResource Primary}" FontSize="10"/>
                                     </Grid>
-                                    <Button x:Name="addToPlaylist" Grid.Column="1" HorizontalOptions="End" Text="+" FontSize="30" TextColor="{StaticResource Primary}" Clicked="addToPlaylist_Clicked"/>
                                 </Grid>
                             </DataTemplate>
                         </CollectionView.ItemTemplate>
@@ -37,9 +52,15 @@
             <Frame Grid.ColumnSpan="3" Margin="10"
                    HasShadow="False" Background="{StaticResource Background2}"
                    CornerRadius="20"/>
+            <Button x:Name="PauseButton" BackgroundColor="{StaticResource Primary}"
+                    HeightRequest="50" WidthRequest="50"
+                    Clicked="PauseButton_Clicked"/>
             <ProgressBar x:Name="progressBar" Grid.Column="1"
-                         ProgressColor="{StaticResource Primary}"
-                         Progress="{DynamicResource SongProgress}"/>
+                         ProgressColor="{StaticResource Primary}"/>
+            <Button x:Name="AddToPlaylistButton" Grid.Column="3" IsVisible="false"
+                    Text="+" TextColor="{StaticResource Background1}" FontSize="30" BackgroundColor="{StaticResource Primary}"
+                    CornerRadius="25" WidthRequest="50" HeightRequest="50"
+                    Clicked="AddToPlaylistButton_Clicked"/>
         </Grid>
 
     </Grid>
