@@ -18,6 +18,8 @@ public partial class SearchPage : ContentPage
     public bool audioPlayerExists = false;
 	public bool songPlaying = false;
     public string addToPlaylist;
+    public double songPosition;
+    public int i = 0;
 
     public SearchPage(IAudioManager audioManager)
 	{
@@ -66,20 +68,21 @@ public partial class SearchPage : ContentPage
             AddToPlaylistButton.IsVisible = true;
 
             //Animate progress bar for length of song
-            await progressBar.ProgressTo(1, (uint)audioPlayer.Duration * 1000, Easing.Linear);
+            await SongProgress.ProgressTo(1, (uint)audioPlayer.Duration * 1000, Easing.Linear);
         }
 		else if (audioPlayerExists == true)
 		{
 			audioPlayer.Dispose();
-			progressBar.Progress = 0;
+            SongProgress.Progress = 0;
 
             //Creates a new audio player
             audioPlayer = (AudioPlayer)AudioManager.CreatePlayer(await FileSystem.OpenAppPackageFileAsync(songAddress));
             audioPlayer.Play();
             songPlaying = true;
+            AddToPlaylistButton.IsVisible = true;
 
             //Animate progress bar for length of song
-            await progressBar.ProgressTo(1, (uint)audioPlayer.Duration * 1000, Easing.Linear);
+            await SongProgress.ProgressTo(1, (uint)audioPlayer.Duration * 1000, Easing.Linear);
         }
     }
 
@@ -135,19 +138,15 @@ public partial class SearchPage : ContentPage
         AddToPlaylistDisable();
     }
 
-    void PauseButton_Clicked(System.Object sender, System.EventArgs e)
+    void StopButton_Clicked(System.Object sender, System.EventArgs e)
     {
         if (songPlaying == true)
         {
-            audioPlayer.Pause();
-            songPlaying = false;
-            progressBar.Progress = audioPlayer.CurrentPosition / audioPlayer.Duration * 1000;
-        }
-        else if (songPlaying == false)
-        {
-            audioPlayer.Play();
-            songPlaying = true;
-            progressBar.ProgressTo(1, (uint)(audioPlayer.Duration - audioPlayer.CurrentPosition) * 1000, Easing.Linear);
+            audioPlayer.Stop();
+            audioPlayerExists = false;
+            SongProgress.ProgressTo (0, 0, Easing.Linear);
+            songList.SelectedItem = null;
+            AddToPlaylistButton.IsVisible = false;
         }
     }
 

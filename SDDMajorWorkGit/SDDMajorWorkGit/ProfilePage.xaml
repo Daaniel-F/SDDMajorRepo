@@ -15,16 +15,6 @@
                        VerticalTextAlignment="End" HorizontalTextAlignment="Start"/>
             </Grid>
         </ScrollView>
-
-        <Grid ColumnDefinitions="*, *, *" Grid.Row="1">
-            <Frame Grid.ColumnSpan="3" Margin="10"
-                   HasShadow="False" Background="{StaticResource Background2}"
-                   CornerRadius="20"/>
-            <ProgressBar Grid.Column="1"
-                         ProgressColor="{StaticResource Primary}"
-                         Progress="0.5"/>
-        </Grid>
-
     </Grid>
 
 </ContentPage>

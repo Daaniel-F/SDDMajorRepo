@@ -1,36 +1,25 @@
-﻿<Properties StartupConfiguration="{C25951C4-1CA2-48FB-8B9E-0E5466BA35FA}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
-  <MonoDevelop.Ide.ItemProperties.SDDMajorWorkGit PreferredExecutionTarget="MyAppleMacCatalystID" />
+﻿<Properties NuGet.AddPackagesDialog.IncludePrerelease="True" StartupConfiguration="{C25951C4-1CA2-48FB-8B9E-0E5466BA35FA}|Default">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="SDDMajorWorkGit/SearchPage.xaml.cs">
     <Files>
-      <File FileName="SDDMajorWorkGit/SearchPage.xaml" Line="18" Column="123" />
-      <File FileName="SDDMajorWorkGit/SearchPage.xaml.cs" Line="39" Column="46" />
-      <File FileName="SDDMajorWorkGit/MauiProgram.cs" Line="23" Column="135" />
-      <File FileName="SDDMajorWorkGit/Models/Playlist.cs" Line="9" Column="44" />
-      <File FileName="SDDMajorWorkGit/PlaylistRepo.cs" Line="54" Column="77" />
-      <File FileName="SDDMajorWorkGit/SongRepo.cs" Line="14" Column="33" />
-      <File FileName="SDDMajorWorkGit/LibraryPage.xaml" Line="35" Column="1" />
-      <File FileName="SDDMajorWorkGit/LibraryPage.xaml.cs" Line="33" Column="1" />
-      <File FileName="SDDMajorWorkGit/App.xaml.cs" Line="36" Column="46" />
-      <File FileName="SDDMajorWorkGit/Platforms/MacCatalyst/Program.cs" Line="13" Column="1" />
+      <File FileName="SDDMajorWorkGit/SearchPage.xaml" />
+      <File FileName="SDDMajorWorkGit/SearchPage.xaml.cs" Line="83" Column="30" />
+      <File FileName="SDDMajorWorkGit/MauiProgram.cs" />
+      <File FileName="SDDMajorWorkGit/Models/Playlist.cs" />
+      <File FileName="SDDMajorWorkGit/PlaylistRepo.cs" />
+      <File FileName="SDDMajorWorkGit/SongRepo.cs" />
+      <File FileName="SDDMajorWorkGit/LibraryPage.xaml" />
+      <File FileName="SDDMajorWorkGit/LibraryPage.xaml.cs" />
+      <File FileName="SDDMajorWorkGit/App.xaml.cs" />
+      <File FileName="SDDMajorWorkGit/Platforms/MacCatalyst/Program.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="SDDMajorWorkGit">
-            <Node name="SDDMajorWorkGit">
-              <Node name="Models" expanded="True" />
-              <Node name="Platforms" expanded="True">
-                <Node name="MacCatalyst" expanded="True" />
-              </Node>
-              <Node name="Resources" expanded="True">
-                <Node name="Raw" expanded="True" />
-                <Node name="Styles" expanded="True" />
-              </Node>
-              <Node name="App.xaml" expanded="True" />
-              <Node name="LibraryPage.xaml" expanded="True" />
-              <Node name="MainPage.xaml" expanded="True" />
-              <Node name="SearchPage.xaml">
+          <Node name="SDDMajorWorkGit" expanded="True">
+            <Node name="SDDMajorWorkGit" expanded="True">
+              <Node name="SearchPage.xaml" expanded="True">
                 <Node name="SearchPage.xaml.cs" selected="True" />
               </Node>
             </Node>
@@ -39,10 +28,10 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <Xamarin.Addins.Core.Project ActiveDebugTarget="MyAppleMacCatalystID" />
-  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.SDDMajorWorkGit PreferredExecutionTarget="MyAppleMacCatalystID" />
 </Properties>
